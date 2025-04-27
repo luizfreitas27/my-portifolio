@@ -3,9 +3,9 @@ import { TechCarroussel } from "./_components/TechCarroussel";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaPaperclip } from "react-icons/fa6";
 import Image from "next/image";
+import newProfile from "@/../public/new_profile.jpg";
 import profile from "@/../public/profile.jpg";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Footer } from "./_components/Footer";
 
 export default function Home() {
   return (
