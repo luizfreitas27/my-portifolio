@@ -69,13 +69,14 @@ export default function Home() {
           <p className="w-full leading-relaxed text-justify text-sm sm:text-base">
             Hello, I'm a Fullstack Developer passionate about building robust
             back-end systems and creating modern, user-friendly front-end
-            experiences. With hands-on experience in technologies like Node.js,
-            TypeScript, Next.js, Python, FastAPI, and Flask, I specialize in
-            developing scalable RESTful APIs and intuitive interfaces. I value
-            clean, well-structured architecture, always aiming for high
-            performance, security, and an exceptional user experience.
-            Constantly evolving, I'm driven by the challenge of delivering
-            efficient, high-quality solutions that make a real impact.
+            experiences. With hands-on experience in technologies like Java,
+            Spring, Spring Boot, Spring Security, Angular, React, Next.js,
+            TypeScript, I specialize in developing scalable RESTful APIs and
+            intuitive interfaces. I value clean, well-structured architecture,
+            always aiming for high performance, security, and an exceptional
+            user experience. Constantly evolving, I'm driven by the challenge of
+            delivering efficient, high-quality solutions that make a real
+            impact.
           </p>
         </div>
       </div>
@@ -90,7 +91,7 @@ export default function Home() {
           <CardContent>
             <p>
               I develop modern, responsive interfaces with Next.js and
-              TypeScript, prioritizing intuitive user experiences and clean,
+              Angular, prioritizing intuitive user experiences and clean,
               maintainable code structures.
             </p>
           </CardContent>
@@ -101,8 +102,8 @@ export default function Home() {
           </CardHeader>
           <CardContent>
             <p>
-              I design and build robust RESTful APIs with Node.js, Express,
-              FastAPI, and Flask — always prioritizing performance, scalability,
+              I design and build robust RESTful APIs with Java, Spring, Spring Boot, Spring Security,
+              FastAPI — always prioritizing performance, scalability,
               and security.
             </p>
           </CardContent>
