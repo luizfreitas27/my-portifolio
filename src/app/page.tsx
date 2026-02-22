@@ -1,8 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { TechCarroussel } from "./_components/TechCarroussel";
-import { FaGithub, FaLinkedin, FaServer, FaDocker } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaServer, FaDocker, FaLayerGroup } from "react-icons/fa";
 import { FaPaperclip } from "react-icons/fa6";
-import { MdArchitecture } from "react-icons/md";
 import Image from "next/image";
 import profile from "@/../public/profile.jpg";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -124,7 +123,7 @@ export default function Home() {
 
         <Card className="bg-card shadow-sm hover:shadow-md hover:scale-105 transition-all ease-in-out duration-200">
           <CardHeader className="flex flex-row items-center gap-3 pb-2">
-            <MdArchitecture className="text-red-400 text-xl shrink-0" />
+            <FaLayerGroup className="text-red-400 text-xl shrink-0" />
             <CardTitle className="text-red-400">Architecture &amp; Quality</CardTitle>
           </CardHeader>
           <CardContent>
