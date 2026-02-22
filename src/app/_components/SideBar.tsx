@@ -7,6 +7,7 @@ export function Sidebar() {
         <LinkSide href="#about">About me</LinkSide>
         <LinkSide href="#journey">Journey</LinkSide>
         <LinkSide href="#experience">Experience</LinkSide>
+        <LinkSide href="#education">Education</LinkSide>
       </li>
     </div>
   );

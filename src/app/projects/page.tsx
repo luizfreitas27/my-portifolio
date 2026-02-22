@@ -13,7 +13,7 @@ export default async function ProjectsPage() {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {repos.map((repo) => (
-            <Card key={repo.name} className="hover:scale-105 transition-all duration-200 ease-in-out dark:bg-card bg-gray-200">
+            <Card key={repo.name} className="hover:scale-105 transition-all duration-200 ease-in-out bg-card shadow-sm hover:shadow-md">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <FaGithub className="text-xl" />

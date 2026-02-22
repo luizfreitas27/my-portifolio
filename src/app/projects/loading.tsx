@@ -8,7 +8,7 @@ export default function Loading() {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {[...Array(6)].map((_, index) => (
-            <Card key={index} className="dark:bg-card bg-gray-200">
+            <Card key={index} className="bg-card shadow-sm">
               <CardHeader>
                 <div className="flex items-center gap-2">
                   <div className="skeleton h-6 w-6 rounded-full" />
